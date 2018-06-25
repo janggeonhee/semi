@@ -38,7 +38,7 @@
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.poshytip.min.js"></script>
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.activity-indicator-1.0.0.min.js"></script>
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.cookie.js"></script>
-<script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.slides.min.js"></script>
+<script type="text/javascript" src ="/tp/views/common/app/javascript/plugin/jquery.slides.min.js"></script>
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.bxslider.js"></script>
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/jquery.placeholder.js"></script>
 <script type="text/javascript" src="/tp/views/common/app/javascript/plugin/custom-select-box.js"></script>
@@ -543,82 +543,7 @@
 
 
 
-<!-- 중앙 슬라이드 배너 시작-->
-	<div id="layout_config">
-		<div id="layout_config_full">
 
-<style type="text/css">
-	body {width:100%; height:100%; overflow-x:hidden;}
-	#layout_config {width:100%; margin:0 auto;}	
-	#layout_topBar {margin-bottom:0 !important;}
-	.main_display {width:1200px; margin:0 auto;}
-	.main_slider .designBanner {width:100% !important; margin:0 auto !important;}
-	.main_slider .designBanner .anibanner_navigation_btn_prev {left:50% !important; margin-left:-570px; transition:transform .3s;}
-	.main_slider .designBanner .anibanner_navigation_btn_next {right:50% !important; margin-right:-570px !important; transition:transform .3s;}
-	.main_slider .designBanner:hover .anibanner_navigation_btn_prev {transform:translate(-30px, 0)}
-    .main_slider .designBanner:hover .anibanner_navigation_btn_next {transform:translate(30px, 0)}
-    .main_slider3 .designBanner {width:100% !important; margin:0 auto !important;}
-	.main_slider3 .designBanner .anibanner_navigation_btn_prev {left:50% !important; margin-left:-500px !important;}
-	.main_slider3 .designBanner .anibanner_navigation_btn_next {left:50% !important; margin-left:430px !important;}
-</style>
-
-<div class="main_slider">
-	<script type='text/javascript' src='/tp/views/common/app/javascript/jquery/jquery.ui.touch-punch.min.js'></script>
-	<script type='text/javascript' src='/tp/views/common/app/javascript/plugin/anibanner/jquery.anibanner7687.js'></script>
-	<link rel='stylesheet' type='text/css' href='/tp/views/common/app/javascript/plugin/anibanner/anibanner.css' />
-<div class='designBanner' designElement='banner' templatePath='main/index.html' bannerSeq='1' style='height:568px;'><img src="/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/images_1.jpg" width="100%" height="568" /></div>
-	<script>
-		$(function(){
-			var bannerTimer1;
-			var settings1= {
-				'platform' : 'pc',
-				'modtime' : '1518494058',
-				'style' : 'pc_style_2',
-				'height' : '568',
-				'background_color' : '#ffffff',
-				'background_image' : '/tp/views/common/data/skin/fruit_puro_gls/',
-				'background_repeat' : 'no-repeat',
-				'background_position' : 'left top',
-				'image_border_use' : 'n',
-				'image_border_width' : '0',
-				'image_border_color' : '#ffffff',
-				'image_opacity_use' : 'y',
-				'image_opacity_percent' : '0',
-				'image_top_margin' : '0',
-				'image_side_margin' : '0',
-				'image_width' : '2000',
-				'image_height' : '568',
-				'navigation_btn_style' : 'btn_style_2',
-				'navigation_btn_visible' : 'mouseover',
-				'navigation_paging_style' : 'paging_style_3',
-				'navigation_paging_height' : '',
-				'navigation_paging_align' : 'center',
-				'navigation_paging_position' : 'over',
-				'navigation_paging_margin' : '30',
-				'navigation_paging_spacing' : '0',
-				'slide_event' : 'auto',
-				
-				'images' : 
-				[{'image':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/images_1.jpg'},{'image':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/images_2.jpg'}],
-				
-				'navigation_paging_custom_images' : 
-				[{'active':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/','inactive':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/'},{'active':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/','inactive':'/tp/views/common/data/skin/fruit_puro_gls/images/banner/1/'}]};
-			
-			if (typeof(callAnibanner1) != 'function'){
-				function callAnibanner1() {
-					if (typeof ($.custom.anibanner) != 'undefined') {
-						$('.designBanner[bannerSeq="1"]').anibanner(settings1);
-					}
-					clearInterval(bannerTimer1);
-				}
-			}
-			if (typeof($.custom.anibanner) == 'undefined'){
-				clearInterval(bannerTimer1);
-				bannerTimer1 = setInterval(callAnibanner1,100);
-			} else {
-				$('.designBanner[bannerSeq="1"]').anibanner(settings1);
-			}
-	})
-</script>
 </div>
-<!-- //슬라이드 배너 끝 -->
+</body>
+</html>
