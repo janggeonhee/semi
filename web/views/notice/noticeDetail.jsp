@@ -29,7 +29,30 @@
 
 	<meta property="fb:app_id" content="" />
 		<meta property="og:type" content="website" />
-
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://edge-sample17.firstmall.kr/data/font/font.css" />
+<link rel="stylesheet" type="text/css" href="http://edge-sample17.firstmall.kr/data/skin/fruit_puro_gls/css/style.css" />
+<!-- 파비콘 -->
+<link rel="shortcut icon" href="http://edge-sample17.firstmall.kr//data/icon/favicon/favicon1497244551.ico" />
+<!-- /CSS -->
+<!-- 자바스크립트 -->
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.poshytip.min.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.activity-indicator-1.0.0.min.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.slides.min.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.bxslider.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.placeholder.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/custom-select-box.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/plugin/jquery.sprintf.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/data/js/language/L10n_KR.js?dummy=20180525000907"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/js/common.js?dummy=20180525000907"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/js/front-layout.js?dummy=20180525000907"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/js/base64.js"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/js/goods-display.js?dummy=20180525000907"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/app/javascript/js/board-display.js?dummy=20180525000907"></script>
+<script type="text/javascript" src="http://edge-sample17.firstmall.kr/data/skin/fruit_puro_gls/common/script.js"></script>
 <script type="text/javascript">
 	var gl_mobile_mode	= 0;
 	var gl_set_mode		= '';
@@ -39,7 +62,9 @@
 	var gl_basic_currency_symbol			= "원";
 	var gl_basic_currency_symbol_position	= "after";
 
+	$(function(){
 
+	});
 </script>
 <style type="text/css">
 	/* 레이아웃설정 폰트 적용 */

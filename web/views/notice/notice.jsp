@@ -40,7 +40,21 @@
 </head>
 
 <body>
-	
+	<script type="text/javascript">
+		//<![CDATA[
+		 var is_user = false;
+		 var plus_app_id = '';
+		 var fammercemode = '';
+		 var fbId = "";
+		 var fbAccessToken = "";
+		 var isLogin = false;
+		 var isFirst = true;
+		 var fbUid = "";
+		 var fbName = "";
+		 var mbpage = false;
+		 var orderpage = false;
+		//]]>
+	</script>
 	<!--facebook area-->
 	<div id="fb-root"></div>
 	<!--facebook area end-->
@@ -231,8 +245,7 @@ table {margin:0 auto;}	#layout_config {width:1200px;margin:auto;}
 		</span>
 	</li>
 	<li>
-<!-- 페이징 -->
-<div class="paging_navigation"><p><a class="on red">1</a><p></div><!-- 페이징 --> 	</li>
+<!-- 페이징 --><div class="paging_navigation"><p><a class="on red">1</a><p></div><!-- 페이징 --> 	</li>
 	<li class="last">
 		<input type="button" name="boad_write_btn_no"  id="boad_write_btn_no" board_id="" fileperm_read="" value="자주묻는질문 쓰기" class="btn_chg hidden" />
 	</li>
@@ -331,6 +344,11 @@ table {margin:0 auto;}	#layout_config {width:1200px;margin:auto;}
 </script></div>				
 	</div>
 
+
 	<%@ include file = "/views/common/footer.jsp" %>
 </body>
+
+
+
+
 </html>
